@@ -9,7 +9,7 @@
 </head>
 <body>
     <form th:object="${calculator}">
-        <input type="number" step="0.01" th:field="*{arg1}" modelAttribute="calculator">
+        <input type="number" step="0.01" th:field="*{arg1}">
         <select th:field="*{operation}">
             <option value="add">+</option>
             <option value="del">-</option>
